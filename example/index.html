@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+  <head>
+    <title>Bubble component demo</title>
+    <script type="module" src="./qui-bubble.js"></script>
+    <style>
+        .chat-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+       
+    </style>
+
+  </head>
+  <body>
+    <h1>Chat</h1>
+    <div class="chat-container">
+
+        <qui-bubble message="Hello! How are you?" side="left" name="Alice"
+            icon="https://randomuser.me/api/portraits/women/1.jpg">
+        </qui-bubble>
+
+        <qui-bubble message="I'm good! How about you?" side="right"></qui-bubble>
+
+        <qui-bubble side="right">
+            <span style="color: blue; font-weight: bold;">Custom <i>styled</i> message!</span>
+        </qui-bubble>
+
+        <qui-bubble side="left" name="Kristen">
+            <img src="https://randomuser.me/api/portraits/women/2.jpg"><span>My new profile pic</span>
+        </qui-bubble>
+
+        <qui-bubble side="left" name="Bob" typing></qui-bubble>
+    </div>
+  </body>
+</html>

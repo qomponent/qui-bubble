@@ -1,0 +1,30 @@
+{
+  "name": "@qomponent/qui-bubble",
+  "version": "999-SNAPSHOT",
+  "description": "A Chat bubble component",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Phillip Kruger <phillip.kruger@phillip-kruger.com> (https://www.phillip-kruger.com)",
+  "homepage": "https://quarkus.io",
+  "license": "Apache-2.0",
+  "main": "qui-bubble.js",
+  "module": "qui-bubble.js",
+  "type": "module",
+  "keywords": [
+    "qomponent",
+    "Quarkus",
+    "web-components",
+    "bubble"
+  ],
+  "scripts": {
+    "start": "web-dev-server --config web-dev-server.config.js"
+  },
+  "dependencies": {
+    "lit": "~3.2.0"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.4.4",
+    "es-dev-server": "^1.55.1"
+  }
+}
