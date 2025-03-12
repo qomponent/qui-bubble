@@ -15,35 +15,22 @@
   <body>
     <h1>Chat</h1>
     <div class="chat-container">
-        <div class="chat-container">
-            <qui-bubble 
-                message="Hello! How are you?" 
-                side="left" 
-                name="Alice"
-                icon="https://randomuser.me/api/portraits/women/1.jpg">
-                </qui-bubble>
-        
-            <qui-bubble 
-                message="I'm good! How about you?" 
-                side="right">
-            </qui-bubble>
-        
-            <qui-bubble side="right">
-                <span style="color: blue; font-weight: bold;">Custom <i>styled</i> message!</span>
-            </qui-bubble>
-        
-            <qui-bubble side="left">
-                <img width="80px" src="https://images.unsplash.com/photo-1741496775671-c570e5838260?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Nice view"> Bird
-            </qui-bubble>
-        
-            <qui-bubble 
-            side="left" 
-            name="Alice"
-            icon="https://randomuser.me/api/portraits/women/1.jpg"
-            typing>
-            </qui-bubble>
 
-        </div>
+        <qui-bubble message="Hello! How are you?" side="left" name="Alice"
+            icon="https://randomuser.me/api/portraits/women/1.jpg">
+        </qui-bubble>
+
+        <qui-bubble message="I'm good! How about you?" side="right"></qui-bubble>
+
+        <qui-bubble side="right">
+            <span style="color: blue; font-weight: bold;">Custom <i>styled</i> message!</span>
+        </qui-bubble>
+
+        <qui-bubble side="left" name="Kristen">
+            <img src="https://randomuser.me/api/portraits/women/2.jpg"><span>My new profile pic</span>
+        </qui-bubble>
+
+        <qui-bubble side="left" name="Bob" typing></qui-bubble>
     </div>
   </body>
 </html>
